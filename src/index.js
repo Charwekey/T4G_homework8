@@ -1,13 +1,13 @@
 function checkGender(){
     let user = prompt("What is you gender?");
-
-    if (user == "Male"){
-        alert("You are a boy!👨‍🦰");
+user = user.toLowerCase();
+    if (user == "male"){
+        alert(`You are a ${user}!👨‍🦰`);
 
     }
 
-    else if (user =="Female"){
-        alert("You are a girl!👩‍🦰");
+    else if (user =="female"){
+        alert(`You are a ${user}!👩‍🦰`);
     }
     else{
         alert ("Invail input, try again");
